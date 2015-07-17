@@ -1,0 +1,27 @@
+
+1) Title: search functionality in the header made hidden
+   file: /Presentation/Nop.Web/Views/Shared.cshtml
+   Reason: Need to place it in a more appropriate place
+
+2) removed currency selection from the view
+
+3) Title: Index page, remove news and poll
+   file: /Presentation/Nop.Web/Views/Home/Index.cshtml
+   Reason: Don't need this in azeer project
+
+
+4) Title: Add code to add redirection links in top menu to topics
+   file: /Presentation/Nop.Web/Controllers/TopicController.cs
+   Reason: Don't need this in azeer project
+
+5) Title: Shuffled display order of topics and category in the menu
+   file: /Presentation/Nop.Web/Controllers/TopicController.cs
+   Reason: Don't need this in azeer project
+   
+   Title: search functionality in the header made visible again
+   file: /Presentation/Nop.Web/Views/Shared.cshtml
+
+   Title: Made topic block in log in screen hidden (systemName = LoginRegistrationInfo)
+   file: /Presentation/Nop.Web/Views/Customer/Login.cshtml
+   Reason: Don't need this in azeer project
+
