@@ -428,6 +428,7 @@
     <Content Include="Content\BBEditor\images\underline.gif" />
     <Content Include="Content\BBEditor\images\unlink.gif" />
     <Content Include="Content\BBEditor\images\unordered.gif" />
+    <Content Include="Content\easyzoom\easyzoom.css" />
     <Content Include="Content\fancybox\blank.gif" />
     <Content Include="Content\fancybox\fancybox-x.png" />
     <Content Include="Content\fancybox\fancybox-y.png" />
@@ -1037,6 +1038,8 @@
     <Content Include="Content\tinymce\skins\lightgray\skin.min.css" />
     <Content Include="Content\tinymce\themes\modern\theme.min.js" />
     <Content Include="Content\tinymce\tinymce.min.js" />
+    <Content Include="Scripts\easyzoom.js" />
+    <Content Include="Scripts\easyzoom.min.js" />
     <Content Include="Scripts\fineuploader\edit.gif" />
     <Content Include="Scripts\fineuploader\fineuploader-4.2.2.css" />
     <Content Include="Scripts\fineuploader\fineuploader-4.2.2.min.css" />
@@ -1114,6 +1117,8 @@
     <Content Include="Scripts\jquery.magnific-popup.js" />
     <Content Include="Scripts\jquery.tmpl.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.zoom.js" />
+    <Content Include="Scripts\jquery.zoom.min.js" />
     <Content Include="Scripts\kendo\2014.1.318\cultures\kendo.culture.af-ZA.min.js" />
     <Content Include="Scripts\kendo\2014.1.318\cultures\kendo.culture.af.min.js" />
     <Content Include="Scripts\kendo\2014.1.318\cultures\kendo.culture.am-ET.min.js" />

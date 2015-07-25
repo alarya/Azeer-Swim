@@ -2631,6 +2631,45 @@ label, label + * {
 	color: #4ab2f1;
 }
 
+/********** product picture hover zoom  **********/
+
+
+/*.picture {
+    transition: all .2s ease-in-out;
+}
+.picture:hover {
+    transform: scale(1.4);
+}*/
+    
+/*.picture:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;*/
+}
+
+ /* magnifying glass icon */
+.picture:after {
+	content:'';
+	display:block; 
+	width:33px; 
+	height:33px; 
+	position:absolute; 
+	top:0;
+	right:0;
+}
+
+.picture img {
+	display: block;
+}
+
+.picture img::selection { 
+    background-color: transparent; 
+
+}
 
 /********** REGISTRATION, LOGIN, ACCOUNT PAGES  **********/
 

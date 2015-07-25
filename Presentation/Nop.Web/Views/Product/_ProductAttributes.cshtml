@@ -486,10 +486,11 @@
                 }
             }
             if (typeof pictureDefaultSizeUrl == 'string' && pictureDefaultSizeUrl != '') {
-                $('#main-product-img-' + productId).attr("src", pictureDefaultSizeUrl);
+                $('#main-product-img-' + productId).attr("src", pictureDefaultSizeUrl);                
             }
             if (typeof pictureFullSizeUrl == 'string' && pictureFullSizeUrl != '') {
                 $('#main-product-img-lightbox-anchor-' + productId).attr("href", pictureFullSizeUrl);
+                $('#main-product-img-lightbox-anchor-' + productId).easyZoom();
             }
         }
         // Picture attributes handlers
