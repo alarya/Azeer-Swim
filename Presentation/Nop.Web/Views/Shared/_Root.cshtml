@@ -12,6 +12,18 @@
     <script type="text/javascript">
         AjaxCart.init(false, '.header-links .cart-qty', '.header-links .wishlist-qty', '#flyout-cart');
     </script>
+    
+    @if (ViewData["Index"] != null) { 
+    if((bool)ViewData["Index"])           //display slider only on index page 
+        { 
+          @Html.Widget("home_page_top")
+        }
+    }
+    
+    @*<div class="search-box">
+        @Html.Action("SearchBox", "Catalog")
+    </div>*@
+
     <div class="header-menu">
         @Html.Action("TopMenu", "Catalog")
     </div>

@@ -1,0 +1,9 @@
+E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Views\DiscountRulesHadSpentAmount\Configure.cshtml
+E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Description.txt
+E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\web.config
+E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\logo.jpg
+E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.dll.config
+E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.dll
+E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.pdb
+E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.dll
+E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.pdb

@@ -103,7 +103,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\nivoslider\themes\custom\custom.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\nivoslider\themes\custom\loading.gif">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

@@ -1,0 +1,256 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch workBranch
+# Changes to be committed:
+#	modified:   Libraries/Nop.Core/bin/Debug/Nop.Core.dll
+#	modified:   Libraries/Nop.Core/bin/Debug/Nop.Core.pdb
+#	modified:   Libraries/Nop.Core/obj/Debug/Nop.Core.dll
+#	modified:   Libraries/Nop.Core/obj/Debug/Nop.Core.pdb
+#	modified:   Libraries/Nop.Data/bin/Debug/Nop.Core.dll
+#	modified:   Libraries/Nop.Data/bin/Debug/Nop.Core.pdb
+#	modified:   Libraries/Nop.Data/bin/Debug/Nop.Data.dll
+#	modified:   Libraries/Nop.Data/bin/Debug/Nop.Data.pdb
+#	modified:   Libraries/Nop.Data/obj/Debug/Nop.Data.csprojResolveAssemblyReference.cache
+#	modified:   Libraries/Nop.Data/obj/Debug/Nop.Data.dll
+#	modified:   Libraries/Nop.Data/obj/Debug/Nop.Data.pdb
+#	modified:   Libraries/Nop.Services/bin/Debug/Nop.Core.dll
+#	modified:   Libraries/Nop.Services/bin/Debug/Nop.Core.pdb
+#	modified:   Libraries/Nop.Services/bin/Debug/Nop.Data.dll
+#	modified:   Libraries/Nop.Services/bin/Debug/Nop.Data.pdb
+#	modified:   Libraries/Nop.Services/bin/Debug/Nop.Services.dll
+#	modified:   Libraries/Nop.Services/bin/Debug/Nop.Services.pdb
+#	modified:   Libraries/Nop.Services/obj/Debug/Nop.Services.csprojResolveAssemblyReference.cache
+#	modified:   Libraries/Nop.Services/obj/Debug/Nop.Services.dll
+#	modified:   Libraries/Nop.Services/obj/Debug/Nop.Services.pdb
+#	modified:   NopCommerce.v12.suo
+#	modified:   Plugins/Nop.Plugin.Widgets.NivoSlider/Content/nivoslider/themes/custom/custom.css
+#	modified:   Plugins/Nop.Plugin.Widgets.NivoSlider/Nop.Plugin.Widgets.NivoSlider.csproj
+#	modified:   Presentation/Nop.Web.Framework/bin/Debug/Nop.Core.dll
+#	modified:   Presentation/Nop.Web.Framework/bin/Debug/Nop.Core.pdb
+#	modified:   Presentation/Nop.Web.Framework/bin/Debug/Nop.Data.dll
+#	modified:   Presentation/Nop.Web.Framework/bin/Debug/Nop.Data.pdb
+#	modified:   Presentation/Nop.Web.Framework/bin/Debug/Nop.Services.dll
+#	modified:   Presentation/Nop.Web.Framework/bin/Debug/Nop.Services.pdb
+#	modified:   Presentation/Nop.Web.Framework/bin/Debug/Nop.Web.Framework.dll
+#	modified:   Presentation/Nop.Web.Framework/bin/Debug/Nop.Web.Framework.pdb
+#	modified:   Presentation/Nop.Web.Framework/obj/Debug/Nop.Web.Framework.csprojResolveAssemblyReference.cache
+#	modified:   Presentation/Nop.Web.Framework/obj/Debug/Nop.Web.Framework.dll
+#	modified:   Presentation/Nop.Web.Framework/obj/Debug/Nop.Web.Framework.pdb
+#	modified:   Presentation/Nop.Web/Administration/Bin/Nop.Core.dll
+#	modified:   Presentation/Nop.Web/Administration/Bin/Nop.Data.dll
+#	modified:   Presentation/Nop.Web/Administration/Bin/Nop.Services.dll
+#	modified:   Presentation/Nop.Web/Administration/Bin/Nop.Web.Framework.dll
+#	modified:   Presentation/Nop.Web/Content/easyzoom/easyzoom.css
+#	modified:   Presentation/Nop.Web/Controllers/HomeController.cs
+#	modified:   Presentation/Nop.Web/Plugins/DiscountRules.CustomerRoles/Nop.Plugin.DiscountRules.CustomerRoles.dll
+#	modified:   Presentation/Nop.Web/Plugins/DiscountRules.CustomerRoles/Nop.Plugin.DiscountRules.CustomerRoles.pdb
+#	modified:   Presentation/Nop.Web/Plugins/DiscountRules.HadSpentAmount/Nop.Plugin.DiscountRules.HadSpentAmount.dll
+#	modified:   Presentation/Nop.Web/Plugins/DiscountRules.HadSpentAmount/Nop.Plugin.DiscountRules.HadSpentAmount.pdb
+#	modified:   Presentation/Nop.Web/Plugins/DiscountRules.HasAllProducts/Nop.Plugin.DiscountRules.HasAllProducts.dll
+#	modified:   Presentation/Nop.Web/Plugins/DiscountRules.HasAllProducts/Nop.Plugin.DiscountRules.HasAllProducts.pdb
+#	modified:   Presentation/Nop.Web/Plugins/DiscountRules.HasOneProduct/Nop.Plugin.DiscountRules.HasOneProduct.dll
+#	modified:   Presentation/Nop.Web/Plugins/DiscountRules.HasOneProduct/Nop.Plugin.DiscountRules.HasOneProduct.pdb
+#	modified:   Presentation/Nop.Web/Plugins/ExchangeRate.McExchange/Nop.Plugin.ExchangeRate.McExchange.dll
+#	modified:   Presentation/Nop.Web/Plugins/ExchangeRate.McExchange/Nop.Plugin.ExchangeRate.McExchange.pdb
+#	modified:   Presentation/Nop.Web/Plugins/ExternalAuth.Facebook/Nop.Plugin.ExternalAuth.Facebook.dll
+#	modified:   Presentation/Nop.Web/Plugins/ExternalAuth.Facebook/Nop.Plugin.ExternalAuth.Facebook.pdb
+#	modified:   Presentation/Nop.Web/Plugins/Feed.Froogle/Nop.Plugin.Feed.Froogle.dll
+#	modified:   Presentation/Nop.Web/Plugins/Feed.Froogle/Nop.Plugin.Feed.Froogle.pdb
+#	modified:   Presentation/Nop.Web/Plugins/Misc.FacebookShop/Nop.Plugin.Misc.FacebookShop.dll
+#	modified:   Presentation/Nop.Web/Plugins/Misc.FacebookShop/Nop.Plugin.Misc.FacebookShop.pdb
+#	modified:   Presentation/Nop.Web/Plugins/Payments.AuthorizeNet/Nop.Plugin.Payments.AuthorizeNet.dll
+#	modified:   Presentation/Nop.Web/Plugins/Payments.AuthorizeNet/Nop.Plugin.Payments.AuthorizeNet.pdb
+#	modified:   Presentation/Nop.Web/Plugins/Payments.CheckMoneyOrder/Nop.Plugin.Payments.CheckMoneyOrder.dll
+#	modified:   Presentation/Nop.Web/Plugins/Payments.CheckMoneyOrder/Nop.Plugin.Payments.CheckMoneyOrder.pdb
+#	modified:   Presentation/Nop.Web/Plugins/Payments.Manual/Nop.Plugin.Payments.Manual.dll
+#	modified:   Presentation/Nop.Web/Plugins/Payments.Manual/Nop.Plugin.Payments.Manual.pdb
+#	modified:   Presentation/Nop.Web/Plugins/Payments.PayPalDirect/Nop.Plugin.Payments.PayPalDirect.dll
+#	modified:   Presentation/Nop.Web/Plugins/Payments.PayPalDirect/Nop.Plugin.Payments.PayPalDirect.pdb
+#	modified:   Presentation/Nop.Web/Plugins/Payments.PayPalStandard/Nop.Plugin.Payments.PayPalStandard.dll
+#	modified:   Presentation/Nop.Web/Plugins/Payments.PayPalStandard/Nop.Plugin.Payments.PayPalStandard.pdb
+#	modified:   Presentation/Nop.Web/Plugins/Payments.PurchaseOrder/Nop.Plugin.Payments.PurchaseOrder.dll
+#	modified:   Presentation/Nop.Web/Plugins/Payments.PurchaseOrder/Nop.Plugin.Payments.PurchaseOrder.pdb
+#	modified:   Presentation/Nop.Web/Plugins/SMS.Verizon/Nop.Plugin.SMS.Verizon.dll
+#	modified:   Presentation/Nop.Web/Plugins/SMS.Verizon/Nop.Plugin.SMS.Verizon.pdb
+#	modified:   Presentation/Nop.Web/Plugins/Shipping.AustraliaPost/Nop.Plugin.Shipping.AustraliaPost.dll
+#	modified:   Presentation/Nop.Web/Plugins/Shipping.AustraliaPost/Nop.Plugin.Shipping.AustraliaPost.pdb
+#	modified:   Presentation/Nop.Web/Plugins/Shipping.ByWeight/Nop.Plugin.Shipping.ByWeight.dll
+#	modified:   Presentation/Nop.Web/Plugins/Shipping.ByWeight/Nop.Plugin.Shipping.ByWeight.pdb
+#	modified:   Presentation/Nop.Web/Plugins/Shipping.CanadaPost/Nop.Plugin.Shipping.CanadaPost.dll
+#	modified:   Presentation/Nop.Web/Plugins/Shipping.CanadaPost/Nop.Plugin.Shipping.CanadaPost.pdb
+#	modified:   Presentation/Nop.Web/Plugins/Shipping.Fedex/Nop.Plugin.Shipping.Fedex.dll
+#	modified:   Presentation/Nop.Web/Plugins/Shipping.Fedex/Nop.Plugin.Shipping.Fedex.pdb
+#	modified:   Presentation/Nop.Web/Plugins/Shipping.FixedRateShipping/Nop.Plugin.Shipping.FixedRateShipping.dll
+#	modified:   Presentation/Nop.Web/Plugins/Shipping.FixedRateShipping/Nop.Plugin.Shipping.FixedRateShipping.pdb
+#	modified:   Presentation/Nop.Web/Plugins/Shipping.UPS/Nop.Plugin.Shipping.UPS.dll
+#	modified:   Presentation/Nop.Web/Plugins/Shipping.UPS/Nop.Plugin.Shipping.UPS.pdb
+#	modified:   Presentation/Nop.Web/Plugins/Shipping.USPS/Nop.Plugin.Shipping.USPS.dll
+#	modified:   Presentation/Nop.Web/Plugins/Shipping.USPS/Nop.Plugin.Shipping.USPS.pdb
+#	modified:   Presentation/Nop.Web/Plugins/Tax.CountryStateZip/Nop.Plugin.Tax.CountryStateZip.dll
+#	modified:   Presentation/Nop.Web/Plugins/Tax.CountryStateZip/Nop.Plugin.Tax.CountryStateZip.pdb
+#	modified:   Presentation/Nop.Web/Plugins/Tax.FixedRate/Nop.Plugin.Tax.FixedRate.dll
+#	modified:   Presentation/Nop.Web/Plugins/Tax.FixedRate/Nop.Plugin.Tax.FixedRate.pdb
+#	modified:   Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/Nop.Plugin.Widgets.GoogleAnalytics.dll
+#	modified:   Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/Nop.Plugin.Widgets.GoogleAnalytics.pdb
+#	modified:   Presentation/Nop.Web/Plugins/Widgets.NivoSlider/Content/nivoslider/themes/custom/custom.css
+#	modified:   Presentation/Nop.Web/Plugins/Widgets.NivoSlider/Nop.Plugin.Widgets.NivoSlider.dll
+#	modified:   Presentation/Nop.Web/Plugins/Widgets.NivoSlider/Nop.Plugin.Widgets.NivoSlider.pdb
+#	modified:   Presentation/Nop.Web/Scripts/_references.js
+#	modified:   Presentation/Nop.Web/Scripts/easyzoom.js
+#	modified:   Presentation/Nop.Web/Themes/Azeer/Content/css/styles.css
+#	modified:   Presentation/Nop.Web/Themes/Azeer/Content/images/logo.png
+#	modified:   Presentation/Nop.Web/Views/Home/Index.cshtml
+#	modified:   Presentation/Nop.Web/Views/Shared/Header.cshtml
+#	modified:   Presentation/Nop.Web/Views/Shared/_Root.Head.cshtml
+#	modified:   Presentation/Nop.Web/Views/Shared/_Root.cshtml
+#	modified:   Presentation/Nop.Web/bin/Nop.Admin.dll
+#	modified:   Presentation/Nop.Web/bin/Nop.Admin.pdb
+#	modified:   Presentation/Nop.Web/bin/Nop.Core.dll
+#	modified:   Presentation/Nop.Web/bin/Nop.Core.pdb
+#	modified:   Presentation/Nop.Web/bin/Nop.Data.dll
+#	modified:   Presentation/Nop.Web/bin/Nop.Data.pdb
+#	modified:   Presentation/Nop.Web/bin/Nop.Services.dll
+#	modified:   Presentation/Nop.Web/bin/Nop.Services.pdb
+#	modified:   Presentation/Nop.Web/bin/Nop.Web.Framework.dll
+#	modified:   Presentation/Nop.Web/bin/Nop.Web.Framework.pdb
+#	modified:   Presentation/Nop.Web/bin/Nop.Web.dll
+#	modified:   Presentation/Nop.Web/bin/Nop.Web.pdb
+#	modified:   Presentation/Nop.Web/obj/Debug/Nop.Web.csprojResolveAssemblyReference.cache
+#	modified:   Presentation/Nop.Web/obj/Debug/Nop.Web.dll
+#	modified:   Presentation/Nop.Web/obj/Debug/Nop.Web.pdb
+#
+# Untracked files:
+#	Plugins/Nop.Plugin.DiscountRules.CustomerRoles/obj/Debug/Nop.Plugin.DiscountRules.CustomerRoles.csproj.FileListAbsolute.txt
+#	Plugins/Nop.Plugin.DiscountRules.CustomerRoles/obj/Debug/Nop.Plugin.DiscountRules.CustomerRoles.csprojResolveAssemblyReference.cache
+#	Plugins/Nop.Plugin.DiscountRules.CustomerRoles/obj/Debug/Nop.Plugin.DiscountRules.CustomerRoles.dll
+#	Plugins/Nop.Plugin.DiscountRules.CustomerRoles/obj/Debug/Nop.Plugin.DiscountRules.CustomerRoles.pdb
+#	Plugins/Nop.Plugin.DiscountRules.HadSpentAmount/obj/Debug/Nop.Plugin.DiscountRules.HadSpentAmount.csproj.FileListAbsolute.txt
+#	Plugins/Nop.Plugin.DiscountRules.HadSpentAmount/obj/Debug/Nop.Plugin.DiscountRules.HadSpentAmount.dll
+#	Plugins/Nop.Plugin.DiscountRules.HadSpentAmount/obj/Debug/Nop.Plugin.DiscountRules.HadSpentAmount.pdb
+#	Plugins/Nop.Plugin.DiscountRules.HasAllProducts/obj/Debug/Nop.Plugin.DiscountRules.HasAllProducts.csproj.FileListAbsolute.txt
+#	Plugins/Nop.Plugin.DiscountRules.HasAllProducts/obj/Debug/Nop.Plugin.DiscountRules.HasAllProducts.dll
+#	Plugins/Nop.Plugin.DiscountRules.HasAllProducts/obj/Debug/Nop.Plugin.DiscountRules.HasAllProducts.pdb
+#	Plugins/Nop.Plugin.DiscountRules.HasOneProduct/obj/Debug/Nop.Plugin.DiscountRules.HasOneProduct.csproj.FileListAbsolute.txt
+#	Plugins/Nop.Plugin.DiscountRules.HasOneProduct/obj/Debug/Nop.Plugin.DiscountRules.HasOneProduct.dll
+#	Plugins/Nop.Plugin.DiscountRules.HasOneProduct/obj/Debug/Nop.Plugin.DiscountRules.HasOneProduct.pdb
+#	Plugins/Nop.Plugin.ExchangeRate.McExchange/obj/Debug/Nop.Plugin.ExchangeRate.McExchange.csproj.FileListAbsolute.txt
+#	Plugins/Nop.Plugin.ExchangeRate.McExchange/obj/Debug/Nop.Plugin.ExchangeRate.McExchange.csprojResolveAssemblyReference.cache
+#	Plugins/Nop.Plugin.ExchangeRate.McExchange/obj/Debug/Nop.Plugin.ExchangeRate.McExchange.dll
+#	Plugins/Nop.Plugin.ExchangeRate.McExchange/obj/Debug/Nop.Plugin.ExchangeRate.McExchange.pdb
+#	Plugins/Nop.Plugin.ExternalAuth.Facebook/obj/Debug/Nop.Plugin.ExternalAuth.Facebook.csproj.FileListAbsolute.txt
+#	Plugins/Nop.Plugin.ExternalAuth.Facebook/obj/Debug/Nop.Plugin.ExternalAuth.Facebook.csprojResolveAssemblyReference.cache
+#	Plugins/Nop.Plugin.ExternalAuth.Facebook/obj/Debug/Nop.Plugin.ExternalAuth.Facebook.dll
+#	Plugins/Nop.Plugin.ExternalAuth.Facebook/obj/Debug/Nop.Plugin.ExternalAuth.Facebook.pdb
+#	Plugins/Nop.Plugin.Feed.Froogle/obj/Debug/Nop.Plugin.Feed.Froogle.csproj.FileListAbsolute.txt
+#	Plugins/Nop.Plugin.Feed.Froogle/obj/Debug/Nop.Plugin.Feed.Froogle.dll
+#	Plugins/Nop.Plugin.Feed.Froogle/obj/Debug/Nop.Plugin.Feed.Froogle.pdb
+#	Plugins/Nop.Plugin.Misc.FacebookShop/obj/Debug/Nop.Plugin.Misc.FacebookShop.csproj.FileListAbsolute.txt
+#	Plugins/Nop.Plugin.Misc.FacebookShop/obj/Debug/Nop.Plugin.Misc.FacebookShop.csprojResolveAssemblyReference.cache
+#	Plugins/Nop.Plugin.Misc.FacebookShop/obj/Debug/Nop.Plugin.Misc.FacebookShop.dll
+#	Plugins/Nop.Plugin.Misc.FacebookShop/obj/Debug/Nop.Plugin.Misc.FacebookShop.pdb
+#	Plugins/Nop.Plugin.Payments.AuthorizeNet/obj/Debug/Nop.Plugin.Payments.AuthorizeNet.csproj.FileListAbsolute.txt
+#	Plugins/Nop.Plugin.Payments.AuthorizeNet/obj/Debug/Nop.Plugin.Payments.AuthorizeNet.csprojResolveAssemblyReference.cache
+#	Plugins/Nop.Plugin.Payments.AuthorizeNet/obj/Debug/Nop.Plugin.Payments.AuthorizeNet.dll
+#	Plugins/Nop.Plugin.Payments.AuthorizeNet/obj/Debug/Nop.Plugin.Payments.AuthorizeNet.pdb
+#	Plugins/Nop.Plugin.Payments.CheckMoneyOrder/obj/Debug/Nop.Plugin.Payments.CheckMoneyOrder.csproj.FileListAbsolute.txt
+#	Plugins/Nop.Plugin.Payments.CheckMoneyOrder/obj/Debug/Nop.Plugin.Payments.CheckMoneyOrder.dll
+#	Plugins/Nop.Plugin.Payments.CheckMoneyOrder/obj/Debug/Nop.Plugin.Payments.CheckMoneyOrder.pdb
+#	Plugins/Nop.Plugin.Payments.Manual/obj/Debug/Nop.Plugin.Payments.Manual.csproj.FileListAbsolute.txt
+#	Plugins/Nop.Plugin.Payments.Manual/obj/Debug/Nop.Plugin.Payments.Manual.csprojResolveAssemblyReference.cache
+#	Plugins/Nop.Plugin.Payments.Manual/obj/Debug/Nop.Plugin.Payments.Manual.dll
+#	Plugins/Nop.Plugin.Payments.Manual/obj/Debug/Nop.Plugin.Payments.Manual.pdb
+#	Plugins/Nop.Plugin.Payments.PayPalDirect/obj/Debug/Nop.Plugin.Payments.PayPalDirect.csproj.FileListAbsolute.txt
+#	Plugins/Nop.Plugin.Payments.PayPalDirect/obj/Debug/Nop.Plugin.Payments.PayPalDirect.csprojResolveAssemblyReference.cache
+#	Plugins/Nop.Plugin.Payments.PayPalDirect/obj/Debug/Nop.Plugin.Payments.PayPalDirect.dll
+#	Plugins/Nop.Plugin.Payments.PayPalDirect/obj/Debug/Nop.Plugin.Payments.PayPalDirect.pdb
+#	Plugins/Nop.Plugin.Payments.PayPalStandard/obj/Debug/Nop.Plugin.Payments.PayPalStandard.csproj.FileListAbsolute.txt
+#	Plugins/Nop.Plugin.Payments.PayPalStandard/obj/Debug/Nop.Plugin.Payments.PayPalStandard.dll
+#	Plugins/Nop.Plugin.Payments.PayPalStandard/obj/Debug/Nop.Plugin.Payments.PayPalStandard.pdb
+#	Plugins/Nop.Plugin.Payments.PurchaseOrder/obj/Debug/Nop.Plugin.Payments.PurchaseOrder.csproj.FileListAbsolute.txt
+#	Plugins/Nop.Plugin.Payments.PurchaseOrder/obj/Debug/Nop.Plugin.Payments.PurchaseOrder.dll
+#	Plugins/Nop.Plugin.Payments.PurchaseOrder/obj/Debug/Nop.Plugin.Payments.PurchaseOrder.pdb
+#	Plugins/Nop.Plugin.SMS.Verizon/obj/Debug/Nop.Plugin.SMS.Verizon.csproj.FileListAbsolute.txt
+#	Plugins/Nop.Plugin.SMS.Verizon/obj/Debug/Nop.Plugin.SMS.Verizon.dll
+#	Plugins/Nop.Plugin.SMS.Verizon/obj/Debug/Nop.Plugin.SMS.Verizon.pdb
+#	Plugins/Nop.Plugin.Shipping.AustraliaPost/obj/Debug/Nop.Plugin.Shipping.AustraliaPost.csproj.FileListAbsolute.txt
+#	Plugins/Nop.Plugin.Shipping.AustraliaPost/obj/Debug/Nop.Plugin.Shipping.AustraliaPost.csprojResolveAssemblyReference.cache
+#	Plugins/Nop.Plugin.Shipping.AustraliaPost/obj/Debug/Nop.Plugin.Shipping.AustraliaPost.dll
+#	Plugins/Nop.Plugin.Shipping.AustraliaPost/obj/Debug/Nop.Plugin.Shipping.AustraliaPost.pdb
+#	Plugins/Nop.Plugin.Shipping.ByWeight/obj/Debug/Nop.Plugin.Shipping.ByWeight.csproj.FileListAbsolute.txt
+#	Plugins/Nop.Plugin.Shipping.ByWeight/obj/Debug/Nop.Plugin.Shipping.ByWeight.dll
+#	Plugins/Nop.Plugin.Shipping.ByWeight/obj/Debug/Nop.Plugin.Shipping.ByWeight.pdb
+#	Plugins/Nop.Plugin.Shipping.CanadaPost/obj/Debug/Nop.Plugin.Shipping.CanadaPost.csproj.FileListAbsolute.txt
+#	Plugins/Nop.Plugin.Shipping.CanadaPost/obj/Debug/Nop.Plugin.Shipping.CanadaPost.dll
+#	Plugins/Nop.Plugin.Shipping.CanadaPost/obj/Debug/Nop.Plugin.Shipping.CanadaPost.pdb
+#	Plugins/Nop.Plugin.Shipping.Fedex/obj/Debug/Nop.Plugin.Shipping.Fedex.csproj.FileListAbsolute.txt
+#	Plugins/Nop.Plugin.Shipping.Fedex/obj/Debug/Nop.Plugin.Shipping.Fedex.dll
+#	Plugins/Nop.Plugin.Shipping.Fedex/obj/Debug/Nop.Plugin.Shipping.Fedex.pdb
+#	Plugins/Nop.Plugin.Shipping.FixedRateShipping/obj/Debug/Nop.Plugin.Shipping.FixedRateShipping.csproj.FileListAbsolute.txt
+#	Plugins/Nop.Plugin.Shipping.FixedRateShipping/obj/Debug/Nop.Plugin.Shipping.FixedRateShipping.csprojResolveAssemblyReference.cache
+#	Plugins/Nop.Plugin.Shipping.FixedRateShipping/obj/Debug/Nop.Plugin.Shipping.FixedRateShipping.dll
+#	Plugins/Nop.Plugin.Shipping.FixedRateShipping/obj/Debug/Nop.Plugin.Shipping.FixedRateShipping.pdb
+#	Plugins/Nop.Plugin.Shipping.UPS/obj/Debug/Nop.Plugin.Shipping.UPS.csproj.FileListAbsolute.txt
+#	Plugins/Nop.Plugin.Shipping.UPS/obj/Debug/Nop.Plugin.Shipping.UPS.csprojResolveAssemblyReference.cache
+#	Plugins/Nop.Plugin.Shipping.UPS/obj/Debug/Nop.Plugin.Shipping.UPS.dll
+#	Plugins/Nop.Plugin.Shipping.UPS/obj/Debug/Nop.Plugin.Shipping.UPS.pdb
+#	Plugins/Nop.Plugin.Shipping.USPS/obj/Debug/Nop.Plugin.Shipping.USPS.csproj.FileListAbsolute.txt
+#	Plugins/Nop.Plugin.Shipping.USPS/obj/Debug/Nop.Plugin.Shipping.USPS.dll
+#	Plugins/Nop.Plugin.Shipping.USPS/obj/Debug/Nop.Plugin.Shipping.USPS.pdb
+#	Plugins/Nop.Plugin.Tax.CountryStateZip/obj/Debug/Nop.Plugin.Tax.CountryStateZip.csproj.FileListAbsolute.txt
+#	Plugins/Nop.Plugin.Tax.CountryStateZip/obj/Debug/Nop.Plugin.Tax.CountryStateZip.csprojResolveAssemblyReference.cache
+#	Plugins/Nop.Plugin.Tax.CountryStateZip/obj/Debug/Nop.Plugin.Tax.CountryStateZip.dll
+#	Plugins/Nop.Plugin.Tax.CountryStateZip/obj/Debug/Nop.Plugin.Tax.CountryStateZip.pdb
+#	Plugins/Nop.Plugin.Tax.FixedRate/obj/Debug/Nop.Plugin.Tax.FixedRate.csproj.FileListAbsolute.txt
+#	Plugins/Nop.Plugin.Tax.FixedRate/obj/Debug/Nop.Plugin.Tax.FixedRate.csprojResolveAssemblyReference.cache
+#	Plugins/Nop.Plugin.Tax.FixedRate/obj/Debug/Nop.Plugin.Tax.FixedRate.dll
+#	Plugins/Nop.Plugin.Tax.FixedRate/obj/Debug/Nop.Plugin.Tax.FixedRate.pdb
+#	Plugins/Nop.Plugin.Widgets.GoogleAnalytics/obj/Debug/Nop.Plugin.Widgets.GoogleAnalytics.csproj.FileListAbsolute.txt
+#	Plugins/Nop.Plugin.Widgets.GoogleAnalytics/obj/Debug/Nop.Plugin.Widgets.GoogleAnalytics.dll
+#	Plugins/Nop.Plugin.Widgets.GoogleAnalytics/obj/Debug/Nop.Plugin.Widgets.GoogleAnalytics.pdb
+#	Plugins/Nop.Plugin.Widgets.NivoSlider/obj/Debug/Nop.Plugin.Widgets.NivoSlider.csproj.FileListAbsolute.txt
+#	Plugins/Nop.Plugin.Widgets.NivoSlider/obj/Debug/Nop.Plugin.Widgets.NivoSlider.dll
+#	Plugins/Nop.Plugin.Widgets.NivoSlider/obj/Debug/Nop.Plugin.Widgets.NivoSlider.pdb
+#	Presentation/Nop.Web/Administration/obj/Debug/Nop.Admin.csproj.FileListAbsolute.txt
+#	Presentation/Nop.Web/Administration/obj/Debug/Nop.Admin.csprojResolveAssemblyReference.cache
+#	Presentation/Nop.Web/Administration/obj/Debug/Nop.Admin.dll
+#	Presentation/Nop.Web/Administration/obj/Debug/Nop.Admin.pdb
+#	Presentation/Nop.Web/Content/Images/Thumbs/0000002_desktops_100.jpg
+#	Presentation/Nop.Web/Content/Images/Thumbs/0000003_notebooks_100.jpg
+#	Presentation/Nop.Web/Content/Images/Thumbs/0000004_software_100.jpg
+#	Presentation/Nop.Web/Content/Images/Thumbs/0000006_camera-photo_100.jpeg
+#	Presentation/Nop.Web/Content/Images/Thumbs/0000007_cell-phones_100.jpeg
+#	Presentation/Nop.Web/Content/Images/Thumbs/0000008_accessories_100.jpg
+#	Presentation/Nop.Web/Content/Images/Thumbs/0000010_shoes_100.jpeg
+#	Presentation/Nop.Web/Content/Images/Thumbs/0000011_clothing_100.jpeg
+#	Presentation/Nop.Web/Content/Images/Thumbs/0000012_apparel-accessories_100.jpg
+#	Presentation/Nop.Web/Content/Images/Thumbs/0000014_books_100.jpeg
+#	Presentation/Nop.Web/Content/Images/Thumbs/0000100_cali-storm-print_415.jpeg
+#	Presentation/Nop.Web/Themes/Azeer/Content/images/logo_big.png
+#	Tests/Nop.Core.Tests/bin/
+#	Tests/Nop.Core.Tests/obj/Debug/Nop.Core.Tests.csproj.FileListAbsolute.txt
+#	Tests/Nop.Core.Tests/obj/Debug/Nop.Core.Tests.csprojResolveAssemblyReference.cache
+#	Tests/Nop.Core.Tests/obj/Debug/Nop.Core.Tests.dll
+#	Tests/Nop.Core.Tests/obj/Debug/Nop.Core.Tests.pdb
+#	Tests/Nop.Data.Tests/bin/
+#	Tests/Nop.Data.Tests/obj/Debug/Nop.Data.Tests.csproj.FileListAbsolute.txt
+#	Tests/Nop.Data.Tests/obj/Debug/Nop.Data.Tests.csprojResolveAssemblyReference.cache
+#	Tests/Nop.Data.Tests/obj/Debug/Nop.Data.Tests.dll
+#	Tests/Nop.Data.Tests/obj/Debug/Nop.Data.Tests.pdb
+#	Tests/Nop.Services.Tests/bin/
+#	Tests/Nop.Services.Tests/obj/Debug/Nop.Services.Tests.csproj.FileListAbsolute.txt
+#	Tests/Nop.Services.Tests/obj/Debug/Nop.Services.Tests.csprojResolveAssemblyReference.cache
+#	Tests/Nop.Services.Tests/obj/Debug/Nop.Services.Tests.dll
+#	Tests/Nop.Services.Tests/obj/Debug/Nop.Services.Tests.pdb
+#	Tests/Nop.Tests/bin/
+#	Tests/Nop.Tests/obj/Debug/Nop.Tests.csproj.FileListAbsolute.txt
+#	Tests/Nop.Tests/obj/Debug/Nop.Tests.csprojResolveAssemblyReference.cache
+#	Tests/Nop.Tests/obj/Debug/Nop.Tests.dll
+#	Tests/Nop.Tests/obj/Debug/Nop.Tests.pdb
+#	Tests/Nop.Web.MVC.Tests/bin/
+#	Tests/Nop.Web.MVC.Tests/obj/Debug/Nop.Web.MVC.Tests.csproj.FileListAbsolute.txt
+#	Tests/Nop.Web.MVC.Tests/obj/Debug/Nop.Web.MVC.Tests.csprojResolveAssemblyReference.cache
+#	Tests/Nop.Web.MVC.Tests/obj/Debug/Nop.Web.MVC.Tests.dll
+#	Tests/Nop.Web.MVC.Tests/obj/Debug/Nop.Web.MVC.Tests.pdb
+#
+

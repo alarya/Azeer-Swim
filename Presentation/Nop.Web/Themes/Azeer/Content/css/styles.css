@@ -65,7 +65,7 @@ body {
     max-width: 100%;
 	overflow-x: hidden;
 	background-color: #fff;
-	font: normal 14px Arial, Helvetica, sans-serif;
+	font: normal 14px Raleway, Arial, Helvetica, sans-serif;
     color: #777;
 }
 h1,h3,h4,h5,h6 {
@@ -745,12 +745,13 @@ label, label + * {
 .header-lower {
 	position: relative;
 	z-index: 0;
-	padding: 35px 0;
+	padding: 15px 0;
 }
 
 .header-logo {
-	margin: 0 0 20px;
+	margin: 5 0 5px;
 	text-align: center;
+    float:left;
 }
 .header-logo a {
 	display: inline-block;
@@ -2631,27 +2632,7 @@ label, label + * {
 	color: #4ab2f1;
 }
 
-/********** product picture hover zoom  **********/
-
-
-/*.picture {
-    transition: all .2s ease-in-out;
-}
-.picture:hover {
-    transform: scale(1.4);
-}*/
-    
-/*.picture:hover {
-    position:relative;
-    top:-25px;
-    left:-35px;
-    width:500px;
-    height:auto;
-    display:block;
-    z-index:999;*/
-}
-
- /* magnifying glass icon */
+ /* ***********magnifying glass icon************* */
 .picture:after {
 	content:'';
 	display:block; 
@@ -4982,7 +4963,14 @@ pre {
 .header-menu {
 	width: 96%;
 }
-
+ 
+.header-menu{                 /*To give shadow effect to the header menu*/
+     width: 80em;
+     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+     -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+     box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+     font-family: 'Oswald', sans-serif;  
+}
 
 /*** GLOBAL TABLES ***/
 
@@ -6224,15 +6212,19 @@ pre {
 
 .center-1 .topic-block-title {
 	text-align: center;
+    font-family: 'Tangerine', serif;
 }
 .topic-page p {
 	text-align: justify;
 }
 .topic-block-title {
     color:#FF3399;
+    font-size:60px;
 }
 .topic-block-body {
     color:#FF3399;
+    font-family: 'Tangerine', serif;
+    font-size:40px
 }
 
 /*** REGISTRATION, LOGIN, ACCOUNT ***/

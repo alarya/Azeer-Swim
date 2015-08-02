@@ -8,6 +8,7 @@ namespace Nop.Web.Controllers
         [NopHttpsRequirement(SslRequirement.No)]
         public ActionResult Index()
         {
+            ViewData["Index"] = true;
             return View();
         }
     }

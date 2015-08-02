@@ -26,7 +26,7 @@
 
 		var defaults = {	
 			id: 'easy_zoom',
-			parent: 'body',
+			parent: this.parent().parent().parent(),
 			append: true,
 			preload: 'Loading...',
 			error: 'There has been a problem with loading the image.'

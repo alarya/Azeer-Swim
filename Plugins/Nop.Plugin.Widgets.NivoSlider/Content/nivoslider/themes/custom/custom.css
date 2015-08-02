@@ -3,7 +3,7 @@
 
 .theme-custom {
 	position: relative;
-	margin: 0 auto 60px;
+	margin: 0 auto 0px;
 }
 .theme-custom .nivoSlider {
 	position: relative;
@@ -19,6 +19,10 @@
 .theme-custom .nivoSlider a {
 	display: block;
 	border: 0;
+}
+.slider-wrapper.theme-custom {
+    margin-bottom: 0px ;
+    margin-top: 0px;
 }
 
 /* BULLET NAVIGATION */
@@ -109,7 +113,7 @@
 @media all and (max-width: 1000px) {
 .theme-custom {
 	max-width: 600px;
-	margin: -20px auto 40px;
+	margin: 0px auto 0px;
 }
 .theme-custom .nivo-directionNav {
 	display: none;
@@ -118,7 +122,7 @@
 
 @media all and (min-width: 1001px) {
 .theme-custom {
-	margin: -30px 0 60px;
+	margin: 0px 0 0px;
 }
 .theme-custom .nivo-directionNav {
 	display: none; /* remove to use directional navigation */
