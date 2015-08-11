@@ -23,6 +23,7 @@ E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Libraries\Nop.Services\bin\Deb
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Libraries\Nop.Services\bin\Debug\UserAgentStringLibrary.dll
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Libraries\Nop.Services\bin\Debug\Autofac.Integration.Mvc.dll
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Libraries\Nop.Services\bin\Debug\EntityFramework.dll
+E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Libraries\Nop.Services\bin\Debug\System.Data.SqlServerCe.dll
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Libraries\Nop.Services\bin\Debug\Nop.Core.pdb
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Libraries\Nop.Services\bin\Debug\Nop.Data.pdb
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Libraries\Nop.Services\bin\Debug\Autofac.xml

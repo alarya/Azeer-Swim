@@ -17,6 +17,7 @@ namespace Nop.Core.Domain.Catalog
         private ICollection<ProductManufacturer> _productManufacturers;
         private ICollection<ProductPicture> _productPictures;
         private ICollection<ProductReview> _productReviews;
+        private ICollection<ProductHeart> _productHearts;
         private ICollection<ProductSpecificationAttribute> _productSpecificationAttributes;
         private ICollection<ProductTag> _productTags;
         private ICollection<ProductAttributeMapping> _productAttributeMappings;
@@ -107,6 +108,11 @@ namespace Nop.Core.Domain.Catalog
         /// Gets or sets the total rating votes (not approved reviews)
         /// </summary>
         public int NotApprovedTotalReviews { get; set; }
+
+        /// <summary>
+        /// Gets or sets the total Hearts 
+        /// </summary>
+        public int TotalHearts { get; set; }
 
         /// <summary>
         /// Gets or sets a value indicating whether the entity is subject to ACL
@@ -628,6 +634,15 @@ namespace Nop.Core.Domain.Catalog
         {
             get { return _productReviews ?? (_productReviews = new List<ProductReview>()); }
             protected set { _productReviews = value; }
+        }
+
+        /// <summary>
+        /// Gets or sets the collection of product reviews
+        /// </summary>
+        public virtual ICollection<ProductHeart> ProductHearts
+        {
+            get { return _productHearts ?? (_productHearts = new List<ProductHeart>()); }
+            protected set { _productHearts = value; }
         }
 
         /// <summary>

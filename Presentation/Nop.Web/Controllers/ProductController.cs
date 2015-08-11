@@ -782,6 +782,17 @@ namespace Nop.Web.Controllers
 
             #endregion
 
+            #region Product Hearts
+
+
+            model.ProductHearts = new ProductDetailsModel.ProductHeartsModel
+            {
+                ProducId = product.Id,
+                TotalHearts = product.TotalHearts,
+                ProductHearted = _productService.GetProductHeartedByCustomer(product.Id, _workContext.CurrentCustomer.Id) 
+            };
+            #endregion
+
             #region Tier prices
 
             if (product.HasTierPrices && _permissionService.Authorize(StandardPermissionProvider.DisplayPrices))
@@ -1052,6 +1063,20 @@ namespace Nop.Web.Controllers
                 .ToList();
 
             return PartialView(model);
+        }
+
+        public ActionResult  AddProductHeart(int productId)
+        {
+            Product product = _productService.GetProductById(productId);
+            _productService.AddProductHeart(product, _workContext.CurrentCustomer.Id);
+            return RedirectToAction("ProductDetails","Product",new { productId = productId });
+        }
+
+        public ActionResult RemoveProductHeart(int productId)
+        {
+            Product product = _productService.GetProductById(productId);
+            _productService.RemoveProductHeart(product, _workContext.CurrentCustomer.Id);
+            return RedirectToAction("ProductDetails", "Product", new { productId = productId });
         }
 
         #endregion

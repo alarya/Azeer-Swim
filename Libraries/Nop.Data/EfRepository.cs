@@ -165,7 +165,7 @@ namespace Nop.Data
             try
             {
                 if (entity == null)
-                    throw new ArgumentNullException("entity");
+                    throw new ArgumentNullException("entity");                
 
                 this.Entities.Remove(entity);
 

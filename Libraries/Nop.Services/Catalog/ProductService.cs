@@ -53,6 +53,7 @@ namespace Nop.Services.Catalog
         private readonly IRepository<ProductPicture> _productPictureRepository;
         private readonly IRepository<ProductSpecificationAttribute> _productSpecificationAttributeRepository;
         private readonly IRepository<ProductReview> _productReviewRepository;
+        private readonly IRepository<ProductHeart> _productHeartRepository;
         private readonly IRepository<ProductWarehouseInventory> _productWarehouseInventoryRepository;
         private readonly IProductAttributeService _productAttributeService;
         private readonly IProductAttributeParser _productAttributeParser;
@@ -114,6 +115,7 @@ namespace Nop.Services.Catalog
             IRepository<StoreMapping> storeMappingRepository,
             IRepository<ProductSpecificationAttribute> productSpecificationAttributeRepository,
             IRepository<ProductReview>  productReviewRepository,
+            IRepository<ProductHeart> productHeartRepository,
             IRepository<ProductWarehouseInventory> productWarehouseInventoryRepository,
             IProductAttributeService productAttributeService,
             IProductAttributeParser productAttributeParser,
@@ -141,6 +143,7 @@ namespace Nop.Services.Catalog
             this._storeMappingRepository = storeMappingRepository;
             this._productSpecificationAttributeRepository = productSpecificationAttributeRepository;
             this._productReviewRepository = productReviewRepository;
+            this._productHeartRepository = productHeartRepository;
             this._productWarehouseInventoryRepository = productWarehouseInventoryRepository;
             this._productAttributeService = productAttributeService;
             this._productAttributeParser = productAttributeParser;
@@ -1070,6 +1073,29 @@ namespace Nop.Services.Catalog
         }
 
         /// <summary>
+        /// Update product hearts total
+        /// </summary>
+        /// <param name="product">Product</param>
+        public virtual void UpdateProductHeartsTotal(Product product)
+        {
+            if (product == null)
+                throw new ArgumentNullException("product");
+
+            int Hearts = 0;
+            var hearts = product.ProductHearts;
+            foreach (var heart in hearts)
+            {
+                if (heart.ProductId == product.Id)
+                {
+                    Hearts++;
+                }
+            }
+
+            product.TotalHearts = Hearts;
+            UpdateProduct(product);
+        }
+
+        /// <summary>
         /// Get low stock products
         /// </summary>
         /// <param name="vendorId">Vendor identifier; 0 to load all records</param>
@@ -1841,6 +1867,57 @@ namespace Nop.Services.Catalog
 
         #endregion
 
+        #region Product Heart
+        
+        /// <summary>
+        /// Gets if a product is hearted by a customer
+        /// </summary>
+        /// <param name="customerId">Customer identifier;</param>
+        /// <returns>true/false</returns>
+        public virtual bool GetProductHeartedByCustomer(int productId, int customerId)
+        {
+            var query = _productHeartRepository.Table;
+            query = query.Where(c => c.CustomerId == customerId);
+            query = query.Where(p => p.ProductId == productId);
+
+            if (query.ToList<ProductHeart>().Count > 0) return true;
+            else return false;
+        }
+
+        /// <summary>
+        /// Sets a new product hearted by a customer
+        /// </summary>
+        /// <param name="customerId">Customer identifier;</param>
+        /// <returns></returns>
+        public virtual void AddProductHeart(Product product, int customerId)
+        {
+            ProductHeart productHeart = new ProductHeart();
+            productHeart.ProductId = product.Id;
+            productHeart.CustomerId = customerId;
+            _productHeartRepository.Insert(productHeart);
+            UpdateProductHeartsTotal(product);
+        }
+
+        /// <summary>
+        /// Deletes a product hearted by a customer
+        /// </summary>
+        /// <param name="customerId">Customer identifier;</param>
+        /// <returns></returns>
+        public virtual void RemoveProductHeart(Product product, int customerId)
+        {
+            var query = _productHeartRepository.Table;
+            query = query.Where(c => c.CustomerId == customerId);
+            query = query.Where(p => p.ProductId == product.Id);
+            if (query.ToList<ProductHeart>().Count > 0)
+            {
+                _productHeartRepository.Delete(query);
+                UpdateProductHeartsTotal(product);
+                _cacheManager.RemoveByPattern(PRODUCTS_PATTERN_KEY);
+            }
+            
+        }
+        #endregion
+
         #region Product warehouse inventory
 
         /// <summary>
@@ -1860,5 +1937,7 @@ namespace Nop.Services.Catalog
         #endregion
 
         #endregion
+
+        
     }
 }

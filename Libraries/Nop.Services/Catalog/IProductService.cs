@@ -449,6 +449,32 @@ namespace Nop.Services.Catalog
 
         #endregion
 
+        #region Product hearts
+
+        /// <summary>
+        /// Gets all product hearts by a customer
+        /// </summary>
+        /// <param name="customerId">Customer identifier;</param>
+        /// <returns>Product Hearts</returns>
+        bool GetProductHeartedByCustomer(int productId, int customerId);
+
+        /// <summary>
+        /// Sets a new product hearted by a customer
+        /// </summary>
+        /// <param name="customerId">Customer identifier;</param>
+        /// <returns></returns>
+        void AddProductHeart(Product product, int customerId);
+
+        /// <summary>
+        /// Deletes a product hearted by a customer
+        /// </summary>
+        /// <param name="customerId">Customer identifier;</param>
+        /// <returns></returns>
+        void RemoveProductHeart(Product product, int customerId);
+
+        #endregion
+
+
         #region Product warehouse inventory
 
         /// <summary>

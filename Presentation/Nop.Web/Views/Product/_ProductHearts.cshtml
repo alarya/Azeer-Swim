@@ -1,0 +1,23 @@
+﻿@model ProductDetailsModel.ProductHeartsModel
+@using System.Globalization
+@using Nop.Web.Models.Catalog;
+
+
+<div class="Product-Hearts">
+    Liked by - @Model.TotalHearts
+</div>
+
+@if (!Model.ProductHearted)
+{
+    <div>
+        <a href="@Url.Action("AddProductHeart","Product",new { productId = Model.ProducId})">Add to Likes</a>
+</div>
+}
+@if(Model.ProductHearted)
+{
+    <div>
+        <a href="@Url.Action("RemoveProductHeart","Product", new { productId = Model.ProducId })">Remove from likes</a>
+</div>
+}
+
+

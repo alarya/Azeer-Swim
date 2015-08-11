@@ -1,2 +1,2 @@
 DataProvider: sqlserver
-DataConnectionString: Data Source=VAIO\SQLEXPRESS;Initial Catalog=AzeerSwim;Integrated Security=True;Persist Security Info=False
+DataConnectionString: Data Source=PHOENIX\SQLEXPRESS;Initial Catalog=AzeerSwimDev;Integrated Security=True;Persist Security Info=False

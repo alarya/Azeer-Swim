@@ -7,8 +7,9 @@ E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Libraries\Nop.Data\bin\Debug\E
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Libraries\Nop.Data\bin\Debug\Nop.Core.dll
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Libraries\Nop.Data\bin\Debug\System.Data.SqlServerCe.dll
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Libraries\Nop.Data\bin\Debug\Autofac.dll
-E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Libraries\Nop.Data\bin\Debug\System.Web.Mvc.dll
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Libraries\Nop.Data\bin\Debug\Autofac.Integration.Mvc.dll
+E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Libraries\Nop.Data\bin\Debug\System.Web.Mvc.dll
+E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Libraries\Nop.Data\bin\Debug\Microsoft.Web.Infrastructure.dll
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Libraries\Nop.Data\bin\Debug\System.Web.Razor.dll
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Libraries\Nop.Data\bin\Debug\System.Web.WebPages.Razor.dll
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Libraries\Nop.Data\bin\Debug\System.Web.WebPages.dll
@@ -18,8 +19,8 @@ E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Libraries\Nop.Data\bin\Debug\E
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Libraries\Nop.Data\bin\Debug\EntityFramework.SqlServer.xml
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Libraries\Nop.Data\bin\Debug\EntityFramework.SqlServerCompact.xml
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Libraries\Nop.Data\bin\Debug\Autofac.xml
-E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Libraries\Nop.Data\bin\Debug\System.Web.Mvc.xml
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Libraries\Nop.Data\bin\Debug\Autofac.Integration.Mvc.xml
+E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Libraries\Nop.Data\bin\Debug\System.Web.Mvc.xml
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Libraries\Nop.Data\bin\Debug\System.Web.Razor.xml
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Libraries\Nop.Data\bin\Debug\System.Web.WebPages.Razor.xml
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Libraries\Nop.Data\bin\Debug\System.Web.WebPages.xml

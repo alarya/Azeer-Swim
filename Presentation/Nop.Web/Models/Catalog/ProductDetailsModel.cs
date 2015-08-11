@@ -25,6 +25,7 @@ namespace Nop.Web.Models.Catalog
             ProductSpecifications= new List<ProductSpecificationModel>();
             ProductManufacturers = new List<ManufacturerModel>();
             ProductReviewOverview = new ProductReviewOverviewModel();
+            ProductHearts = new ProductHeartsModel();
             TierPrices = new List<TierPriceModel>();
         }
 
@@ -83,6 +84,8 @@ namespace Nop.Web.Models.Catalog
 
         public ProductBreadcrumbModel Breadcrumb { get; set; }
 
+        public ProductHeartsModel ProductHearts { get; set; }
+
         public IList<ProductTagModel> ProductTags { get; set; }
 
         public IList<ProductAttributeModel> ProductAttributes { get; set; }
@@ -100,6 +103,13 @@ namespace Nop.Web.Models.Catalog
 
 		#region Nested Classes
 
+        public partial class ProductHeartsModel : BaseNopModel 
+        {
+            public int ProducId { get; set; }
+            public int TotalHearts { get; set; }
+
+            public bool ProductHearted { get; set; }
+        }
         public partial class ProductBreadcrumbModel : BaseNopModel
         {
             public ProductBreadcrumbModel()

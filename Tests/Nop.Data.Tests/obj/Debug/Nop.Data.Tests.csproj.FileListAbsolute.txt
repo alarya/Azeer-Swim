@@ -10,9 +10,10 @@ E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Tests\Nop.Data.Tests\bin\Debug
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Tests\Nop.Data.Tests\bin\Debug\nunit.framework.dll
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Tests\Nop.Data.Tests\bin\Debug\System.Data.SqlServerCe.dll
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Tests\Nop.Data.Tests\bin\Debug\Autofac.dll
-E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Tests\Nop.Data.Tests\bin\Debug\System.Web.Mvc.dll
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Tests\Nop.Data.Tests\bin\Debug\Autofac.Integration.Mvc.dll
+E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Tests\Nop.Data.Tests\bin\Debug\System.Web.Mvc.dll
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Tests\Nop.Data.Tests\bin\Debug\Rhino.Mocks.dll
+E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Tests\Nop.Data.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Tests\Nop.Data.Tests\bin\Debug\System.Web.Razor.dll
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Razor.dll
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.dll
@@ -25,8 +26,8 @@ E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Tests\Nop.Data.Tests\bin\Debug
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServerCompact.xml
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Tests\Nop.Data.Tests\bin\Debug\nunit.framework.xml
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Tests\Nop.Data.Tests\bin\Debug\Autofac.xml
-E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Tests\Nop.Data.Tests\bin\Debug\System.Web.Mvc.xml
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Tests\Nop.Data.Tests\bin\Debug\Autofac.Integration.Mvc.xml
+E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Tests\Nop.Data.Tests\bin\Debug\System.Web.Mvc.xml
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Tests\Nop.Data.Tests\bin\Debug\Rhino.Mocks.xml
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Tests\Nop.Data.Tests\bin\Debug\System.Web.Razor.xml
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Razor.xml

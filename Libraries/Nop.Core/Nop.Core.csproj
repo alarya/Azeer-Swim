@@ -86,6 +86,7 @@
     <Compile Include="ComponentModel\WriteLockDisposable.cs" />
     <Compile Include="Domain\Catalog\Events.cs" />
     <Compile Include="Domain\Catalog\PredefinedProductAttributeValue.cs" />
+    <Compile Include="Domain\Catalog\ProductHeart.cs" />
     <Compile Include="Domain\Catalog\RentalPricePeriod.cs" />
     <Compile Include="Domain\Catalog\SpecificationAttributeType.cs" />
     <Compile Include="Domain\Catalog\AttributeValueType.cs" />

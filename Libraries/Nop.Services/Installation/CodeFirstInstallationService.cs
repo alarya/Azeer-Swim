@@ -178,7 +178,7 @@ namespace Nop.Services.Installation
             {
                 new Store
                 {
-                    Name = "Your store name",
+                    Name = "Azeer Swim",
                     Url = storeUrl,
                     SslEnabled = false,
                     Hosts = "yourstore.com,www.yourstore.com",
@@ -4697,7 +4697,7 @@ namespace Nop.Services.Installation
                     MiniCartThumbPictureSize = 70,
                     AutoCompleteSearchThumbPictureSize = 20,
                     MaximumImageSize = 1980,
-                    DefaultPictureZoomEnabled = false,
+                    DefaultPictureZoomEnabled = true,
                     DefaultImageQuality = 80,
                     MultipleThumbDirectories = false
                 });
@@ -4706,12 +4706,12 @@ namespace Nop.Services.Installation
                 {
                     StoreClosed = false,
                     StoreClosedAllowForAdmins = false,
-                    DefaultStoreTheme = "DefaultClean",
+                    DefaultStoreTheme = "Azeer",
                     AllowCustomerToSelectTheme = true,
                     DisplayMiniProfilerInPublicStore = false,
                     DisplayEuCookieLawWarning = false,
-                    FacebookLink = "http://www.facebook.com/nopCommerce",
-                    TwitterLink = "https://twitter.com/nopCommerce",
+                    FacebookLink = "https://www.facebook.com/pages/Azeer/597001583750972",
+                    TwitterLink = "https://twitter.com/azeerswim",
                     YoutubeLink = "http://www.youtube.com/user/nopCommerce",
                     GooglePlusLink = "https://plus.google.com/+nopcommerce",
                 });

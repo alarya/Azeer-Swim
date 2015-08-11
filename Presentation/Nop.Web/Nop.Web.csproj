@@ -27,6 +27,7 @@
     <IISExpressUseClassicPipelineMode>false</IISExpressUseClassicPipelineMode>
     <TargetFrameworkProfile />
     <NuGetPackageImportStamp>f94c814a</NuGetPackageImportStamp>
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -2034,6 +2035,7 @@
     <Content Include="Themes\Azeer\theme.config" />
     <Content Include="Themes\Azeer\Views\Shared\Head.cshtml" />
     <Content Include="Themes\Azeer\Views\Web.config" />
+    <Content Include="Views\Product\_ProductHearts.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Plugins\bin\" />

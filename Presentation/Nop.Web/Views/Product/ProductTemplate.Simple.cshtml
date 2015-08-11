@@ -68,6 +68,8 @@
                                 @Model.Name
                             </h1>
                         </div>
+                        <!--product hearts-->
+                        @Html.Partial("_ProductHearts", Model.ProductHearts)
                         @if (!String.IsNullOrEmpty(Model.ShortDescription))
                         {
                             <div class="short-description">
