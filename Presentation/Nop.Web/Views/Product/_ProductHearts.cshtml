@@ -4,20 +4,29 @@
 
 
 <div class="Product-Hearts">
-    Liked by - @Model.TotalHearts
+    @if (Model.IsCustomerRegistered)
+    {
+        if (!Model.IsProductHearted)
+        {
+            <div class="add-heart">
+                <a href="@Url.Action("AddProductHeart", "Product", new { productId = Model.ProducId })"><img src="~/Themes/Azeer/Content/images/hollow-heart.PNG" /></a>
+                @Model.TotalHearts people like this dress
+            </div>
+        }
+        if (Model.IsProductHearted)
+        {
+            <div class="remove-heart">
+                <a href="@Url.Action("RemoveProductHeart", "Product", new { productId = Model.ProducId })"><img src="~/Themes/Azeer/Content/images/solid-heart.PNG" /></a>
+                @Model.TotalHearts people like this dress
+            </div>
+        }
+    }
+    @if (!Model.IsCustomerRegistered)
+    {
+        <div class="add-heart">
+            <img src="~/Themes/Azeer/Content/images/hollow-heart.PNG" />
+            @Model.TotalHearts people like this dress (Login to like this dress)
+        </div>
+    }
 </div>
-
-@if (!Model.ProductHearted)
-{
-    <div>
-        <a href="@Url.Action("AddProductHeart","Product",new { productId = Model.ProducId})">Add to Likes</a>
-</div>
-}
-@if(Model.ProductHearted)
-{
-    <div>
-        <a href="@Url.Action("RemoveProductHeart","Product", new { productId = Model.ProducId })">Remove from likes</a>
-</div>
-}
-
 

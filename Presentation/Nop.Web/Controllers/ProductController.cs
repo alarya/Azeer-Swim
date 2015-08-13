@@ -789,7 +789,8 @@ namespace Nop.Web.Controllers
             {
                 ProducId = product.Id,
                 TotalHearts = product.TotalHearts,
-                ProductHearted = _productService.GetProductHeartedByCustomer(product.Id, _workContext.CurrentCustomer.Id) 
+                IsProductHearted = _productService.GetProductHeartedByCustomer(product.Id, _workContext.CurrentCustomer.Id),
+                IsCustomerRegistered = _workContext.CurrentCustomer.IsRegistered()
             };
             #endregion
 
@@ -1065,13 +1066,18 @@ namespace Nop.Web.Controllers
             return PartialView(model);
         }
 
+        #endregion
+
+        #region Product Heart Action methods
+
+        [NopHttpsRequirement(SslRequirement.No)]
         public ActionResult  AddProductHeart(int productId)
         {
             Product product = _productService.GetProductById(productId);
             _productService.AddProductHeart(product, _workContext.CurrentCustomer.Id);
             return RedirectToAction("ProductDetails","Product",new { productId = productId });
         }
-
+        [NopHttpsRequirement(SslRequirement.No)]
         public ActionResult RemoveProductHeart(int productId)
         {
             Product product = _productService.GetProductById(productId);

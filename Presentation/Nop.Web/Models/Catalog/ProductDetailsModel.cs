@@ -107,8 +107,9 @@ namespace Nop.Web.Models.Catalog
         {
             public int ProducId { get; set; }
             public int TotalHearts { get; set; }
-
-            public bool ProductHearted { get; set; }
+            public bool IsProductHearted { get; set; }
+            public bool IsCustomerRegistered { get; set; }
+       
         }
         public partial class ProductBreadcrumbModel : BaseNopModel
         {
