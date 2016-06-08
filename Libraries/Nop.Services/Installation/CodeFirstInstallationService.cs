@@ -4392,8 +4392,8 @@ namespace Nop.Services.Installation
                                            IncludeInSitemap = false,
                                            IsPasswordProtected = false,
                                            DisplayOrder = 1,
-                                           Title = "Welcome to our store",
-                                           Body = "<p>Online shopping is the process consumers go through to purchase products or services over the Internet. You can edit this in the admin site.</p><p>If you have questions, see the <a href=\"http://www.nopcommerce.com/documentation.aspx\">Documentation</a>, or post in the <a href=\"http://www.nopcommerce.com/boards/\">Forums</a> at <a href=\"http://www.nopcommerce.com\">nopCommerce.com</a></p>",
+                                           Title = "Azeer Swim",
+                                           Body = "<p>Azeer creates high-quality swimwear for real women with above average assets. These curvy, fashion-oriented women are highly underrepresented by todays most stylish brands and often settle for swimwear which fails to suit their needs</p>",
                                            TopicTemplateId = defaultTopicTemplate.Id
                                        },
                                    new Topic

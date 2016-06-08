@@ -4,6 +4,6 @@ E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Tests\Nop.Tests\bin\Debug\nuni
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Tests\Nop.Tests\bin\Debug\Rhino.Mocks.dll
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Tests\Nop.Tests\bin\Debug\nunit.framework.xml
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Tests\Nop.Tests\bin\Debug\Rhino.Mocks.xml
-E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Tests\Nop.Tests\obj\Debug\Nop.Tests.csprojResolveAssemblyReference.cache
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Tests\Nop.Tests\obj\Debug\Nop.Tests.dll
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Tests\Nop.Tests\obj\Debug\Nop.Tests.pdb
+E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Tests\Nop.Tests\obj\Debug\Nop.Tests.csprojResolveAssemblyReference.cache

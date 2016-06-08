@@ -6,6 +6,6 @@ E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Presentation\Nop.Web\Plugins\D
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Nop.Plugin.DiscountRules.HasOneProduct.dll.config
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Nop.Plugin.DiscountRules.HasOneProduct.dll
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Nop.Plugin.DiscountRules.HasOneProduct.pdb
+E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.csprojResolveAssemblyReference.cache
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.dll
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.pdb
-E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.csprojResolveAssemblyReference.cache

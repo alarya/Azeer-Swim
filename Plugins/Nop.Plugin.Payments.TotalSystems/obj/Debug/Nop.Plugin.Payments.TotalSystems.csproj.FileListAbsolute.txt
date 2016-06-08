@@ -1,0 +1,11 @@
+E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Presentation\Nop.Web\Plugins\Description.txt
+E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Presentation\Nop.Web\Plugins\web.config
+E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Presentation\Nop.Web\Plugins\Nop.Plugin.Payments.TotalSystems.dll
+E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Presentation\Nop.Web\Plugins\Nop.Plugin.Payments.TotalSystems.pdb
+E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Plugins\Nop.Plugin.Payments.TotalSystems\obj\Debug\Nop.Plugin.Payments.TotalSystems.csprojResolveAssemblyReference.cache
+E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Plugins\Nop.Plugin.Payments.TotalSystems\obj\Debug\Nop.Plugin.Payments.TotalSystems.dll
+E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Plugins\Nop.Plugin.Payments.TotalSystems\obj\Debug\Nop.Plugin.Payments.TotalSystems.pdb
+E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Presentation\Nop.Web\Plugins\Payments.TotalSystems\Description.txt
+E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Presentation\Nop.Web\Plugins\Payments.TotalSystems\web.config
+E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Presentation\Nop.Web\Plugins\Payments.TotalSystems\Nop.Plugin.Payments.TotalSystems.dll
+E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Presentation\Nop.Web\Plugins\Payments.TotalSystems\Nop.Plugin.Payments.TotalSystems.pdb

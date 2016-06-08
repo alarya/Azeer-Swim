@@ -5,6 +5,6 @@ E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Presentation\Nop.Web\Plugins\S
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Presentation\Nop.Web\Plugins\Shipping.USPS\Nop.Plugin.Shipping.USPS.dll.config
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Presentation\Nop.Web\Plugins\Shipping.USPS\Nop.Plugin.Shipping.USPS.dll
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Presentation\Nop.Web\Plugins\Shipping.USPS\Nop.Plugin.Shipping.USPS.pdb
+E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.csprojResolveAssemblyReference.cache
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.dll
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.pdb
-E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.csprojResolveAssemblyReference.cache

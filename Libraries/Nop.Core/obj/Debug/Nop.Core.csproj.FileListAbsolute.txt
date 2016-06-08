@@ -18,6 +18,6 @@ E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Libraries\Nop.Core\bin\Debug\S
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Libraries\Nop.Core\bin\Debug\System.Web.WebPages.xml
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Libraries\Nop.Core\bin\Debug\System.Web.WebPages.Deployment.xml
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Libraries\Nop.Core\bin\Debug\System.Web.WebPages.Razor.xml
-E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Libraries\Nop.Core\obj\Debug\Nop.Core.csprojResolveAssemblyReference.cache
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Libraries\Nop.Core\obj\Debug\Nop.Core.dll
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Libraries\Nop.Core\obj\Debug\Nop.Core.pdb
+E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Libraries\Nop.Core\obj\Debug\Nop.Core.csprojResolveAssemblyReference.cache

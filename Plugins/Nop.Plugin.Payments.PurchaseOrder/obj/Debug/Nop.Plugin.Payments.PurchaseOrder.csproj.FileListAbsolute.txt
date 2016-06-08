@@ -6,6 +6,6 @@ E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Presentation\Nop.Web\Plugins\P
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.dll.config
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.dll
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.pdb
+E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.csprojResolveAssemblyReference.cache
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.dll
 E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.pdb
-E:\Syracuse(Summer2015)\AzeerSwim\eCommProject3.6\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.csprojResolveAssemblyReference.cache
